@@ -29,13 +29,13 @@ justify-content: flex-start;
 
 nav ul li a {
     text-decoration: none; /* Remove underline */
-    cursor: pointer; /* Set cursor to pointer on hover */
+    cursor: pointer;
 	color: black;
 }
 
 nav ul li a:hover {
-    text-decoration: none; /* Remove underline on hover */
-    cursor: pointer; /* Set cursor to pointer on hover */
+    text-decoration: none; 
+    cursor: pointer; 
 	color: rgb(244, 51, 154);
 
 }
@@ -125,25 +125,25 @@ margin-right: 7%;
 
 
 .thirdcontainer {
-    width: 30vw; /* Set the width of the container */
-    height: 65vh; /* Set the height of the container */
+    width: 30vw; 
+    height: 65vh; 
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Create 3 columns */
-    grid-gap: 4px; /* Add gap between smaller boxes for spacing */
+    grid-gap: 4px;
   }
   
   .small-box {
-    width: 9vw; /* Set the width of each smaller box */
+    width: 9vw;
     height: 18vh; /* Set the height of each smaller box */
-    background-color: #3498db; /* Set a background color for the smaller boxes */
-    border: 3px solid #000; /* Add a border for visibility */
+    background-color: #3498db; 
+    border: 3px solid #000;
     border-radius: 12.5px;
   }
   .small-box_special {
-    width: 9vw; /* Set the width of each smaller box */
-    height: 18vh; /* Set the height of each smaller box */
-    background-color: #3498db; /* Set a background color for the smaller boxes */
-    border: 3px solid #000; /* Add a border for visibility */
+    width: 9vw; 
+    height: 18vh; 
+    background-color: #3498db; 
+    border: 3px solid #000;
     border-radius: 12.5px;
   }
 
