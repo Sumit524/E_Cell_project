@@ -93,6 +93,7 @@ body {
 .left {
 	width: 25vw;
 	height: 500px;
+   
 	background-color: #00ffd5;
 	margin-left: 0px;
 	background-image: url(sum1.png);
@@ -467,22 +468,9 @@ align-items: center;
 }
 
 
-.socialMedia{
-height: 20px;
-width: 10vw;
-margin-top: 25px;
-margin-left: 5px;
-color: aliceblue;
-font-weight: bold;
-font-size: larger ;
-margin-left: 10%;
-font-size: 1.5rem;
-text-decoration: none;
 
 
 
-
-}
 .fa-brands{
     margin-top: 15px;
     margin-left: 8.5px;
@@ -500,4 +488,3 @@ text-decoration: none;
     border-radius: 5px;    
 	transform: scale(1.2);
 }
-
