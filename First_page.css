@@ -1,0 +1,153 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.left {
+    margin-left: 15px;
+	font-size: 2.0rem;
+   
+    text-shadow:  rgb(225, 20, 130)  2.5px 1.1px;
+	font-weight: bold;
+    display: flex;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+justify-content: flex-start;
+	margin-top: 0;
+}
+.smt{
+    margin-left: 5px;
+}
+.abcd {
+	
+	margin-left: 7px;
+
+
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Set cursor to pointer on hover */
+	color: black;
+}
+
+nav ul li a:hover {
+    text-decoration: none; /* Remove underline on hover */
+    cursor: pointer; /* Set cursor to pointer on hover */
+	color: rgb(244, 51, 154);
+
+}
+
+
+.right{
+    justify-content:flex-end;
+    overflow-y: hidden;
+    margin-left: 50vw;
+}
+
+header {
+	position: sticky;
+}
+
+nav{
+	display: flex;
+	
+	align-items: center;
+	height: 60px;
+	background-color: aqua;
+	width: 100%;
+	
+	position: sticky;
+
+	border-radius: 8px;
+
+}
+
+nav ul {
+	
+	display: flex;
+}
+
+nav ul li {
+	cursor: pointer;
+}
+
+nav ul li i {
+	size: 10px;
+}
+
+.ad:hover {
+	color: rgb(244, 51, 154);
+	font-size: 1.3rem;
+}
+
+
+nav ul li {
+	list-style: none;
+	margin: 0 35px;
+	font-size: 1.25rem;
+}
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.firstcontainer{
+    width: 30vw;
+    height:65vh;
+    background: linear-gradient(45deg,   deeppink, rgb(226, 51, 223),rgb(42, 42, 233), #9833db);
+    margin-left: 2.5%;
+    border-radius: 15px;
+   
+}
+
+.secondcontainer{
+    width: 30vw;
+    height:65vh;
+    background-image:url(Ecell2.png);
+margin-right: 7%;
+    /* transform: scale(1.4); */
+
+}
+
+.thirdcontainer{
+    width: 30vw;
+    height:65vh;
+    margin-right:2.5%;
+   
+}
+
+
+
+.thirdcontainer {
+    width: 30vw; /* Set the width of the container */
+    height: 65vh; /* Set the height of the container */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 columns */
+    grid-gap: 4px; /* Add gap between smaller boxes for spacing */
+  }
+  
+  .small-box {
+    width: 9vw; /* Set the width of each smaller box */
+    height: 18vh; /* Set the height of each smaller box */
+    background-color: #3498db; /* Set a background color for the smaller boxes */
+    border: 3px solid #000; /* Add a border for visibility */
+    border-radius: 12.5px;
+  }
+  .small-box_special {
+    width: 9vw; /* Set the width of each smaller box */
+    height: 18vh; /* Set the height of each smaller box */
+    background-color: #3498db; /* Set a background color for the smaller boxes */
+    border: 3px solid #000; /* Add a border for visibility */
+    border-radius: 12.5px;
+  }
+
+  .active{
+    background-color:rgb(19, 228, 158);
+  }
+  
