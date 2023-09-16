@@ -541,3 +541,23 @@ align-items: center;
 
 
 
+
+.socialMedia{
+height: 20px;
+width: 10vw;
+margin-top: 25px;
+margin-left: 5px;
+color: aliceblue;
+font-weight: bold;
+font-size: larger ;
+margin-left: 10%;
+font-size: 1.5rem;
+
+
+
+}
+.fa-brands{
+    margin-top: 15px;
+}
+
+
