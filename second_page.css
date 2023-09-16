@@ -455,6 +455,11 @@ align-items: center;
 }
 
 
+.glow-on-hover{
+    display: flex;
+    justify-content:flex-end;
+    cursor: pointer;
+}
 
 
 .socialMedia{
@@ -475,9 +480,19 @@ text-decoration: none;
 }
 .fa-brands{
     margin-top: 15px;
-    margin-left: 6.5px;
+    margin-left: 8.5px;
    color: #ff00c8;
+   background-color: white;
+   border-radius: 5px;
+}
+.insta{
+    color:rgb(211, 211, 18);
 }
 
-
+.fa-brands:hover{
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;    
+	transform: scale(1.2);
+}
 
